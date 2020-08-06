@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	width: 100%;
+	height: 95vh;
+	background-image: linear-gradient(176deg , #00c7b5 80%, #FFFFFF 20%);
+}
+
+.chooserbtn:hover{
+	border-top: 2px solid #00FFF6;
+	border-bottom: 2px solid #00FFF6;
+	text-decoration: none;
+}
+
+.artworldtext{
+	font-size: 01cm;
+	font-weight: 50;
+}
+
+.laptomimg{
+	width: 35%;
+	padding-top: 55px;
+	margin-left: 50px;
+}
+
+.text3div{
+    position: absolute;
+    left: 55%;
+    top: 30%;
+}
+
+.mydiv{
+	display: flex;
+}
+
+@media(max-width: 568px){
+  .header{
+     background-image: linear-gradient(176deg , #00c7b5 100%, #FFFFFF 0%);
+  }
+}
+
+@media(max-width: 568px){
+  .text3div{
+     position: absolute;
+     left: 0%;
+     top: 50%;
+  }
+}
+
+@media(max-width: 568px){
+  .laptomimg{
+     margin-left: 70px;
+     padding-top: 30px;
+     width: 60%;
+  }
+  .chooserbtn{
+  	display: none;
+  }
+}
+
+.mytext{
+	height: 5vh;
+}
